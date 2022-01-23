@@ -9,7 +9,7 @@ body, html {
 }
 
 
-/* The hero image */
+
 .hero {
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.274), rgba(0, 0, 0, 0.555)), url("../images/FJmSwQOVkAIoAB9.png");
     height: 70%;
@@ -17,16 +17,26 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-   
-  }
-  
-  /* Place text in the middle of the image */
+} 
+
 .hero-text {
     text-align: center;
     position: absolute;
     width: 100%;
     height: auto;
 }
+#about-me {
+
+    margin-top: 20px;
+    margin-left: 25%;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    float: left;
+
+
+}
+
 
 
 .cyan {
