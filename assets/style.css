@@ -27,17 +27,42 @@ body, html {
 }
 #about-me {
 
-    margin-top: 20px;
-    margin-left: 25%;
+    margin-top: 3%;
+    /* margin-left: 25%; */
     text-align: center;
-    height: 50%;
-    width: 50%;
+    /* height: 50%;
+    width: 50%; */
     float: left;
-
-
 }
 
+/* #my-work {
 
+        display: grid;
+        grid-template-areas:
+          'Tall Short1'
+          'Tall Short2';
+        grid-gap: 10px;
+        background-color: cyan;
+        padding: 10px;
+        margin: 0px;
+        max-height: 100%;
+      
+} */
+.cardContainer {
+    display: inline-flex;
+    /* display: inline-block; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    flex-wrap: wrap;
+    flex: 1 1 33%;
+    max-width: 33%;
+    margin: 0 auto;
+    
+    
+}
+
+.cardContainer:hover {
+    box-shadow: 0 4px 8px 0 cyan;
+}
 
 .cyan {
     background-color: cyan;
